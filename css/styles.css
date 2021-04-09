@@ -1,0 +1,268 @@
+
+/*
+.top-container{
+    background-color: #E4F9F5;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: solid 10px;
+    border-color: black;
+
+}
+.middle-container{
+  background-color: red;
+  height:200px;
+  width: 200px;
+  border-color: #000000;
+  border: solid 20px;
+
+margin-left: 260px;
+}
+.bottom-container
+{                                      CHECK THESE OUT!!!!!!!
+  background-color: blue;
+  height:200px;
+  width: 200px;
+  margin-left: 500px;
+  border: solid 10px;
+  border-color: black;
+
+} */
+
+
+
+
+/*.top-container{
+  position: relative;
+  left:400px;
+
+  display:inline-block;
+  background-color: red;                   only with names of middle and bot container..commented in html  CHECK THESE OUT!!!!!!!
+  height: 200px;
+  width: 200px;
+}
+.middle-container{
+  position: relative;
+  right:200px;
+  display: inline-block;
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+.bottom-container{ display: inline-block;
+    position: relative;
+  right:200px;
+
+
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+} */
+
+
+/*
+.top-container{
+  position: absolute;
+  left:400px;
+
+  display:inline-block;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+.middle-container{
+  position: absolute;
+  left:200px;
+  display: inline-block;
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+.bottom-container{ display: inline-block;
+    position: absolute;
+  left:0px;
+
+
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+} */
+
+/* .middle-container{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.bottom-container{
+  height: 200px;
+  width: 200px;
+   background-color: blue;
+} */
+
+body{
+  
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+ font-family: 'Merriweather', serif;
+
+}
+
+h1
+{  font-weight: bold;
+   font-size: 5.625rem; /* 100%= 16px = 1em , rem: will ignore everything else*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 4rem;
+}
+
+h2{font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+
+font-weight: bolder;
+    line-height: 3;
+  }
+h3{font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+   font-weight: bolder;
+
+  }
+
+  a{
+    color: #11999E;
+  }
+.pro{
+  text-decoration: underline;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+  padding-top: 100px;}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;  /* center it in web page from l,r sides. 100 px frm t,b*/
+text-align: left;
+line-height: 2;
+}
+
+.img{
+  float: left;
+  margin-right: 30px;
+}
+
+.imgs{
+  float: right;
+  margin-left: 10px;
+}
+
+hr{
+  margin: 100px auto;  /*top and bt- 100, l,r- 0*/
+  border-style: none;
+  border-top: dotted;
+  width: 20%;
+  border-width: 7px;
+  border-color: #c0c0c0;
+
+}
+
+.last{
+  margin: 40px auto 60px auto;
+  width: 50%;
+
+}
+
+ .middle-container{
+   margin-top: 50px;
+ }
+
+.bottom-container{
+ margin-top: 40px;
+
+  font-weight: bold;
+   padding-top: 50px;
+  background-color: #66BFBF;
+}
+
+.footer-link{
+
+margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+ padding: 50px;
+  color: #11999E;
+  text-decoration: none;
+
+}
+/*.profile{
+  background-color: #FFDDE2FF;
+}
+.skills{
+  background-color: #FC766AFF;
+}*/
+a:hover{
+  color: #EAF6F6;
+}
+
+.foot{
+  padding: 50px;
+  color: white;
+
+}
+
+.desc{
+  width: 50%;
+  margin: auto;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family:  'Montserrat', sans-serif;;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 15px;
+   background-color: #66BFBF;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);              /*created using cssbuttoncreator.com*/
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/*
+.desc{
+  clear: left;   earlier ths is down to heading and right/ledt to img. now it will come down of img
+}
+
+.desc2{
+  clear: right;
+} */
